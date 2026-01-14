@@ -1,0 +1,29 @@
+package protocol
+
+const (
+	InteractionTypePrimary = iota
+	InteractionTypeSecondary
+	InteractionTypeAbility1
+	InteractionTypeAbility2
+	InteractionTypeAbility3
+	InteractionTypeUse
+	InteractionTypePick
+	InteractionTypePickup
+	InteractionTypeCollisionEnter
+	InteractionTypeCollisionLeave
+	InteractionTypeCollision
+	InteractionTypeEntityStatEffect
+	InteractionTypeSwapTo
+	InteractionTypeSwapFrom
+	InteractionTypeDeath
+	InteractionTypeWielding
+	InteractionTypeProjectileSpawn
+	InteractionTypeProjectileHit
+	InteractionTypeProjectileMiss
+	InteractionTypeProjectileBounce
+	InteractionTypeHeld
+	InteractionTypeHeldOffhand
+	InteractionTypeEquipped
+	InteractionTypeDodge
+	InteractionTypeGameModeSwap
+)
